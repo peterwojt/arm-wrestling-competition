@@ -1,0 +1,28 @@
+{
+  "name": "arm-wrestling-competition",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/peterwojt/arm-wrestling-competition.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/peterwojt/arm-wrestling-competition/issues"
+  },
+  "homepage": "https://github.com/peterwojt/arm-wrestling-competition#readme",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.1054.0",
+    "@aws-sdk/lib-dynamodb": "^3.1054.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
